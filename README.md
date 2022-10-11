@@ -1,6 +1,6 @@
 # terraform_k8s
 
-
+![alt text](https://github.com/pjloveshiphop/terraform_k8s/blob/main/app_diagram.png?raw=true)
 
 
 
@@ -39,13 +39,13 @@
 ### [두번째 task 문제 해결 과정]
 1.간단한 api를 제공하는 app을 만들어야 하므로 python flask framework를 이용해 random uuid를 return하는 app.py 구현\
 2.해당 app을 Dockerfile을 활용하여 image build\
-3.deployment, service 구성을 위한 yaml파일 작성 및 reference lookup\
-	-https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-deployment-tutorial-example-yaml.html\
-	-https://kubernetes.io/docs/concepts/workloads/controllers/deployment/\
-	-https://kubernetes.io/docs/concepts/services-networking/service/\
-	-https://matthewpalmer.net/kubernetes-app-developer/articles/service-kubernetes-example-tutorial.html
+3.deployment, service 구성을 위한 yaml파일 작성 및 reference lookup \
+	-https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-deployment-tutorial-example-yaml.html \
+	-https://kubernetes.io/docs/concepts/workloads/controllers/deployment/ \
+	-https://kubernetes.io/docs/concepts/services-networking/service/ \
+	-https://matthewpalmer.net/kubernetes-app-developer/articles/service-kubernetes-example-tutorial.html 
 
 4.추가적으로 외부사에게 노출되어야 하므로 ingress 구성 yaml파일 작성 및 reference lookup\
-5.minikube를 활용해 간단한 테스트
+5.minikube를 활용해 간단한 테스트 \
 	- https://kubernetes.io/docs/concepts/services-networking/ingress/ \
 6.app 도식화
